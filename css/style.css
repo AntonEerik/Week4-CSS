@@ -48,13 +48,13 @@ body{
     line-height: 1.5;
 }
 .text-left{
-    animation: textleft;
+    animation: txtleft;
     animation-duration: 5s;
     position: relative;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes textleft {
+@keyframes txtleft {
     0% {left: -1000px}
     85% {left:50px}
     100% {left: 0}
@@ -65,12 +65,12 @@ body{
 .text-right{
     margin-top: 32px;
     text-align: right;
-    animation: textright;
+    animation: txtright;
     animation-duration: 5s;
     position: relative;
 }
 
-@keyframes textright {
+@keyframes txtright {
     0% {right: -1000px}
     85% {right:50px}
     100% {right: 0}
@@ -91,13 +91,13 @@ body{
     text-decoration: none;
     font-family: 'Comic Neue', cursive;
     text-transform: uppercase;
-    animation: anibtn;
+    animation: animation;
     animation-duration: 4s;
     animation-delay: 3s;
     animation-fill-mode: backwards;
 }
 
-@keyframes anibtn{
+@keyframes animation{
     0% {opacity: 0;}  /*0-1*/
     100% {opacity: 1;}
 }
